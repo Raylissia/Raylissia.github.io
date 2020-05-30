@@ -1,98 +1,69 @@
 body{
 	background-color: white;
 	margin: auto;
-
-	}
-
-
-	h1 {
-		font-size:2em;
-		margin-bottom: 10px;
-		text-align: center;
-		color: black;
-		font-family: Vidaloka;
-	
-
 }
-	#menu {
-		display: flex;
-		 justify-content: space-around;
 
 
+h1 {
+	font-size:2em;
+	margin-bottom: 10px;
+	text-align: center;
+	color: black;
+	font-family: Vidaloka;
+}
 
+#menu {
+	display: flex;
+	justify-content: space-around;
+}
 
-	}
-
+			
 			/* page portfolio */
 
 	
 
-	
-	}
-
-	nav{
-		width: 100%;
-		height: 1vh;
-		background-color: lightgrey;
-
-		
+nav{
+	width: 100%;
+	height: 1vh;
+	background-color: lightgrey;	
 	}
 
 
-	nav ul{
-
-		
-		margin-right: 10vh;
-		overflow: hidden;
-		
-		
-		
-
+nav ul{
+	margin-right: 10vh;
+	overflow: hidden;
 	}
 	
-	nav li{
-
-		list-style-type: none;
-		float: right;
-		display : inline-block;
-
-
-		
-	
+nav li{
+	list-style-type: none;
+	float: right;
+	display : inline-block;
 	}
 
-	nav a{
-		display: inline-block;
-		text-decoration: none; /* enlève trait du lien */
-		padding: 20px 30px;
-		color: black;
-		font-family: Vidaloka;
-		
-
-		}
+nav a{
+	display: inline-block;
+	text-decoration: none; /* enlève trait du lien */
+	padding: 20px 30px;
+	color: black;
+	font-family: Vidaloka;
+	}
 
 	
-
-
 .travaux {
 		
-		display: flex;
-		flex-wrap: wrap;
-		margin-top: 6vh;
-		width: 77em;
-		height: 48em;
-
-		overflow: hidden;
-		position: relative;
-		margin-left: auto;
-		margin-right: auto;
-		
-	
-}
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 6vh;
+	width: 77em;
+	height: 48em;
+	overflow: hidden;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	}
 
 
 .travaux p {
-
 	opacity: 1;
 	width: 25em;
 	height: 15em;
@@ -101,16 +72,13 @@ body{
 	text-align: center;
 	padding-top: 7em;
 	padding-bottom: 7em;
-
-
-
 }
+
 
 .projet{
 
 	width: 25em;
 	height: 15em;
-	
 
 }
 
@@ -123,95 +91,47 @@ body{
 
 .positionhover .projet{
 	position: absolute;
-	
-	
 	opacity: 0;
 	background-color: #f1ddcf;
-
-
 }
 
-
-
-
-
 .positionhover:hover .projet{
-
 	opacity: 2;
 	background-color: #AFFDFD;
 	transition: 0.4s;
-	
-	
-	
-
 }
-
-
-
 
 .positionhover{
-	
-	
 	margin-left: 1em;
 	margin-right: 1em;
-	
-	
 }
-
-
 
 .positionhoverG .projet{
 	position: absolute;
-	
-	
 	opacity: 0;
 	background-color: lightgrey;
 
 }
 
-
-
-
-
 .positionhoverG:hover .projet{
-
 	opacity: 1;
 	background-color: #AFFDFD;
 	transition: 0.3s;
-	
-	
-
 }
 
 
 
 .positionhoverD .projet{
 	position: absolute;
-	
-	
 	opacity: 0;
 	background-color: lightgrey;
-
 }
 
-
-
-
 .positionhoverD:hover .projet{
-
 	opacity: 1;
 	background-color: #AFFDFD;
 	transition: 0.3s;
-	
-	
-
 }
-
-
-
-
-
-
 
 figure{
 	text-align: center;
@@ -226,12 +146,13 @@ figcaption{
 
 /* page à propos */
 
+
+
 #bloc{
 
 	margin-top: 50px;
-
-
 }
+
 
 h2{
 	text-align: center;
@@ -239,12 +160,11 @@ h2{
 	margin-top: 30px;
 }
 
+
 p{
 	width: 50em;
 	text-align: justify; 
 	margin: 0 auto;
-	
-	
 }
 
 .photo1{
@@ -257,14 +177,13 @@ p{
 
 /* page motion */
 
+
 .grosbloc{
 	
 	width: 80em;
 	height: 45em;
 	margin: auto;
 	display: flex;
-	
-	
 }
 
 .grosbloc img{
@@ -272,54 +191,41 @@ p{
 	width: 50em;
 	height: 30em;
 	flex: 8;
-
-
 }
 
 .textecourantpageprojet{
-	
 	height: 10em;
 	text-align: justify;
 	width: auto;
-	
-	
-
 }
+
 
 .texteprojet1{
 
 	flex: 4;
 	margin-left: 2em;
 	margin-top: 20em;
-
-
-
 }	
 
 h3{
 	
 	text-align: left;
 	margin-top: 18em;
-	
-
 }
 
 
 h4{
 	
 	text-align: left;
-	
 
 }
 
+
 .grosblocvideo{
-	
 	width: 80em;
 	height: 45em;
 	margin: auto;
 	display: flex;
-	
-	
 }
 
 .grosblocvideo img{
@@ -327,8 +233,6 @@ h4{
 	width: 75em;
 	height: 45em;
 	flex: 4;
-
-
 }
 
 .textecourantpageprojet{
@@ -336,8 +240,6 @@ h4{
 	height: 10em;
 	text-align: justify;
 	width: auto;
-	
-
 }
 
 .texteprojet1video{
@@ -345,9 +247,6 @@ h4{
 	flex: 4;
 	margin-left: 2em;
 	margin-top: 20em;
-
-
-
 }
 
 video{
@@ -360,89 +259,85 @@ video{
 
 /* page contact : formulaire */
 
-    .formulaire{
-        width: 450px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: blue;
-        margin-top: 15em;
-       
-        display: block;
+
+.formulaire{
+	width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    margin-top: 15em;
+    display: block;
+}
         
-        
+form {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    background-color: #f1ddcf;
+}   
 
-    }
-        
-    form {
-        
-        width: 450px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1em;
-        border: 1px solid #CCC;
-        background-color: #f1ddcf;
-    }   
+form p{
+    text-align: center;
+}
 
-    form p{
-        text-align: center;
+.titre-formulaire{
+    font-size: 2em;
+}
 
-    }
+form div{
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-    .titre-formulaire{
-        font-size: 2em;
-    }
 
-    form div{
-        margin-bottom: 10px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+label {
+    display: block;
+    text-align: center;
+}
 
-    label {
-        display: block;
-        text-align: center;
-    }
 
-    input, textarea {
-        font: 1em sans-serif;
-        width: 400px;
-        box-sizing: border-box;
-        border: 1px solid #999;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
+input, textarea {
+    font: 1em sans-serif;
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
-    input:focus, textarea:focus {
-        border-color: #000;
-    }
+    
+input:focus, textarea:focus {
+    border-color: #000;
+}
 
-    textarea {
-        margin-top: 3px;
-        vertical-align: top;
-        height: 10em;
-    }
+textarea {
+    margin-top: 3px;
+    vertical-align: top;
+    height: 10em;
+}
 
-    .button {
-      padding-top: 10px;
-    }
+.button {
+    padding-top: 10px;
+}
 
-    button {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
   
 
-    .textevideo{
-    
-	text-align: justify;
+.textevideo{
+    text-align: justify;
 	width: auto;
 	margin-top: 20em;
-
-    }
+}
    
 
 
