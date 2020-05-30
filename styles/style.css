@@ -123,10 +123,10 @@ body{
 
 .positionhover .projet{
 	position: absolute;
-	width: 25em;
+	
 	
 	opacity: 0;
-	background-color: ##f1ddcf;
+	background-color: #f1ddcf;
 
 
 }
@@ -140,7 +140,7 @@ body{
 	opacity: 2;
 	background-color: #AFFDFD;
 	transition: 0.4s;
-	width: 25em;
+	
 	
 	
 
@@ -150,7 +150,7 @@ body{
 
 
 .positionhover{
-	width: 25em;
+	
 	
 	margin-left: 1em;
 	margin-right: 1em;
@@ -159,17 +159,10 @@ body{
 }
 
 
-.positionhoverG{
-	width: 25em;
-	
-	 
-	
-	
-}
 
 .positionhoverG .projet{
 	position: absolute;
-	width: 25em;
+	
 	
 	opacity: 0;
 	background-color: lightgrey;
@@ -185,20 +178,16 @@ body{
 	opacity: 1;
 	background-color: #AFFDFD;
 	transition: 0.3s;
-	width: 25em;
+	
 	
 
 }
 
-.positionhoverD{
-	width: 25em;
-	
-	
-}
+
 
 .positionhoverD .projet{
 	position: absolute;
-	width: 25em;
+	
 	
 	opacity: 0;
 	background-color: lightgrey;
@@ -213,7 +202,7 @@ body{
 	opacity: 1;
 	background-color: #AFFDFD;
 	transition: 0.3s;
-	width: 25em;
+	
 	
 
 }
