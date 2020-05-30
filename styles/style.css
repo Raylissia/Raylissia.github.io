@@ -10,6 +10,7 @@ body{
 		margin-bottom: 10px;
 		text-align: center;
 		color: black;
+		font-family: Vidaloka;
 	
 
 }
@@ -93,8 +94,15 @@ body{
 .travaux p {
 
 	opacity: 1;
-	width: 35em;
-	height: 23em;
+	width: 25em;
+	height: 15em;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 7em;
+	padding-bottom: 7em;
+
+
 
 }
 
@@ -102,9 +110,6 @@ body{
 
 	width: 25em;
 	height: 15em;
-	
-
-	
 	
 
 }
@@ -121,7 +126,7 @@ body{
 	width: 25em;
 	height: 15em;
 	opacity: 0;
-	background-color: lightgrey;
+	background-color: ##f1ddcf;
 
 
 }
@@ -132,8 +137,8 @@ body{
 
 .positionhover:hover .projet{
 
-	opacity: 1;
-	background-color: lightgrey;
+	opacity: 2;
+	background-color: #AFFDFD;
 	transition: 0.4s;
 	width: 25em;
 	height: 15em;
@@ -178,7 +183,7 @@ body{
 .positionhoverG:hover .projet{
 
 	opacity: 1;
-	background-color: lightgrey;
+	background-color: #AFFDFD;
 	transition: 0.3s;
 	width: 25em;
 	height: 15em;
@@ -206,7 +211,7 @@ body{
 .positionhoverD:hover .projet{
 
 	opacity: 1;
-	background-color: lightgrey;
+	background-color: #AFFDFD;
 	transition: 0.3s;
 	width: 25em;
 	height: 15em;
@@ -250,6 +255,7 @@ p{
 	text-align: justify; 
 	margin: 0 auto;
 	
+	
 }
 
 .photo1{
@@ -260,5 +266,179 @@ p{
 }
 
 
+/* page motion */
+
+.grosbloc{
+	
+	width: 80em;
+	height: 45em;
+	margin: auto;
+	display: flex;
+	
+	
+}
+
+.grosbloc img{
+	margin-top: 15em;
+	width: 50em;
+	height: 30em;
+	flex: 8;
+
+
+}
+
+.textecourantpageprojet{
+	
+	height: 10em;
+	text-align: justify;
+	width: auto;
+	
+
+}
+
+.texteprojet1{
+
+	flex: 4;
+	margin-left: 2em;
+
+
+
+}	
+
+h3{
+	
+	text-align: left;
+	margin-top: 30em;
+
+}
+
+
+h4{
+	
+	text-align: left;
+	
+
+}
+
+.grosblocvideo{
+	
+	width: 80em;
+	height: 45em;
+	margin: auto;
+	display: flex;
+	
+	
+}
+
+.grosblocvideo img{
+	margin-top: 15em;
+	width: 75em;
+	height: 45em;
+	flex: 4;
+
+
+}
+
+.textecourantpageprojet{
+	
+	height: 10em;
+	text-align: justify;
+	width: auto;
+	
+
+}
+
+.texteprojet1video{
+
+	flex: 4;
+	margin-left: 2em;
+
+
+
+}
+
+video{
+	margin-top: 15em;
+	width: 50em;
+	height: 30em;
+	flex: 4;
+}
+
+
+/* page contact : formulaire */
+
+    .formulaire{
+        padding-top: 20em;
+        margin: auto;
+    }
+        
+    form {
+        margin: 0 auto;
+        width: 450px;
+        
+        padding: 1em;
+        border: 1px solid #CCC;
+        background-color: #f1ddcf;
+    }   
+
+    form p{
+        text-align: center;
+
+    }
+
+    .titre-formulaire{
+        font-size: 2em;
+    }
+
+    form div{
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    label {
+        display: block;
+        text-align: center;
+    }
+
+    input, textarea {
+        font: 1em sans-serif;
+        width: 400px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    input:focus, textarea:focus {
+        border-color: #000;
+    }
+
+    textarea {
+        margin-top: 3px;
+        vertical-align: top;
+        height: 10em;
+    }
+
+    .button {
+      padding-top: 10px;
+    }
+
+    button {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+  
+
+    .textevideo{
+    
+	text-align: justify;
+	width: auto;
+
+    }
+   
 
 

@@ -1,35 +1,60 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+    <title>PORTFOLIO DIANE COLLOT</title>
 
-		<link rel="stylesheet" type="text/css" href="styles/reset.css"/>
-		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
-		
+    
 
-		<title>PORTFOLIO DIANE</title>
 
-	</head>
-	<body>
-		
-	
-			<header>
-				
-					<nav>
+</head>
+<body>
 
-						<div class="table">
-						<ul>
-							<li class="contact-html"><a href="contact.html">Contact</a></li>
-							<li class="portfolio-html"><a href="portfolio.html">Portfolio</a></li>
-							<li class="apropos-html"><a href="à propos.html">A propos</a></li>
-							<li class="menu-html"><a href="index.html">Acceuil</a></li>
-						</ul>
-					</div>
-					</nav>
-			
-		</header>
 
-			
+    <header>
+                
+                <nav>
 
-	</body>
+                    <div class="table">
+                        <ul>
+                            <li class="contact-html"><a href="contact.html">Contact</a></li>
+                            <li class="portfolio-html"><a href="index.html">Portfolio</a></li>
+                            <li class="apropos-html"><a href="à propos.html">À propos</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            
+        </header>
+
+
+    <div class="formulaire">
+        <form action="/ma-page-de-traitement" method="post">
+            
+            
+            <div>
+                <label for="name">NOM</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">E-MAIL</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">MESSAGE</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+
+           
+        </form>
+    </div>
+
+</body>
 </html>
