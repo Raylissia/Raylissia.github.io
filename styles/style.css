@@ -124,7 +124,7 @@ body{
 .positionhover .projet{
 	position: absolute;
 	width: 25em;
-	height: 15em;
+	
 	opacity: 0;
 	background-color: ##f1ddcf;
 
@@ -141,7 +141,7 @@ body{
 	background-color: #AFFDFD;
 	transition: 0.4s;
 	width: 25em;
-	height: 15em;
+	
 	
 
 }
@@ -151,7 +151,7 @@ body{
 
 .positionhover{
 	width: 25em;
-	height: 15em;
+	
 	margin-left: 1em;
 	margin-right: 1em;
 	
@@ -161,7 +161,7 @@ body{
 
 .positionhoverG{
 	width: 25em;
-	height: 15em;
+	
 	 
 	
 	
@@ -170,7 +170,7 @@ body{
 .positionhoverG .projet{
 	position: absolute;
 	width: 25em;
-	height: 15em;
+	
 	opacity: 0;
 	background-color: lightgrey;
 
@@ -186,20 +186,20 @@ body{
 	background-color: #AFFDFD;
 	transition: 0.3s;
 	width: 25em;
-	height: 15em;
+	
 
 }
 
 .positionhoverD{
 	width: 25em;
-	height: 15em;
+	
 	
 }
 
 .positionhoverD .projet{
 	position: absolute;
 	width: 25em;
-	height: 15em;
+	
 	opacity: 0;
 	background-color: lightgrey;
 
@@ -214,7 +214,7 @@ body{
 	background-color: #AFFDFD;
 	transition: 0.3s;
 	width: 25em;
-	height: 15em;
+	
 
 }
 
@@ -293,6 +293,7 @@ p{
 	text-align: justify;
 	width: auto;
 	
+	
 
 }
 
@@ -300,6 +301,7 @@ p{
 
 	flex: 4;
 	margin-left: 2em;
+	margin-top: 20em;
 
 
 
@@ -308,7 +310,8 @@ p{
 h3{
 	
 	text-align: left;
-	margin-top: 30em;
+	margin-top: 18em;
+	
 
 }
 
@@ -352,6 +355,7 @@ h4{
 
 	flex: 4;
 	margin-left: 2em;
+	margin-top: 20em;
 
 
 
@@ -447,6 +451,7 @@ video{
     
 	text-align: justify;
 	width: auto;
+	margin-top: 20em;
 
     }
    
