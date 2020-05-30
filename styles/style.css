@@ -368,14 +368,24 @@ video{
 /* page contact : formulaire */
 
     .formulaire{
-        padding-top: 20em;
-        margin: auto;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: blue;
+        margin-top: 15em;
+       
+        display: block;
+        
+        
+
     }
         
     form {
-        margin: 0 auto;
-        width: 450px;
         
+        width: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         padding: 1em;
         border: 1px solid #CCC;
         background-color: #f1ddcf;
